@@ -61,6 +61,15 @@ public class RoomInventory {
     }
 
     /**
+     * Returns all room availability data (read-only mapping).
+     * 
+     * @return Map of room types to counts
+     */
+    public Map<String, Integer> getRoomAvailability() {
+        return new HashMap<>(roomAvailability);
+    }
+
+    /**
      * Updates the availability for a specific room type.
      * 
      * @param roomType The type of room
