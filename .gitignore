@@ -1,0 +1,13 @@
+*.class
+*.log
+*.ctxt
+.mtp
+.settings/
+.classpath
+.project
+bin/
+out/
+target/
+.idea/
+*.iml
+.vscode/
